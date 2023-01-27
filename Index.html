@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Register</title>
+	</head>
+	<body>   
+	<H1>FORMULARIO DE ENTRADA<H1>
+        Introduce tus datos personales para darte de alta 
+		<form ACTION="a23644@svalero.com" METHOD="POST" 
+        ENCTYPE="text/plain">
+    
+			<FIELDSET>
+				<LABEL>
+					Nombre:
+					<INPUT TYPE="text" NAME="Nombre" SIZE="20" MAXLENGTH="10"> <br>
+				</LABEL>
+				Apellido:
+				<INPUT TYPE="text" NAME="Apellido" SIZE="20" MAXLENGTH="10"> <br>
+				Usuario:
+				<INPUT TYPE="text" NAME="Usuario" SIZE="20" MAXLENGTH="10"> <br>
+				Contraseña:
+                <INPUT TYPE="password" NAME="Pass" SIZE="20" MAXLENGTH="5"> <br>
+                Repetir Contraseña:
+				<INPUT TYPE="password" NAME="Repetir contraseña" SIZE="20" MAXLENGTH="5"> <br>
+				Género:
+				<INPUT TYPE="radio" NAME="Genero" VALUE="Hombre">Hombre
+				<INPUT TYPE="radio" NAME="Genero" VALUE="Mujer">Mujer
+				<INPUT TYPE="radio" NAME="Genero" VALUE="Mujer" CHECKED>N/A <br>
+				edad:
+                <INPUT TYPE="radio" NAME="edad" VALUE="0-15"> 0-15 <br>
+                <INPUT TYPE="radio" NAME="edad" VALUE="15-30">15-30 <br>
+                <INPUT TYPE="radio" NAME="edad" VALUE="30-45">30-45 <br>
+                <INPUT TYPE="radio" NAME="edad" VALUE="15-60">45-60 <br>
+                <INPUT TYPE="radio" NAME="edad" VALUE="60 o mas">60 o mas <br>
+				Provincia:
+				<SELECT NAME="Provincia">
+					<OPTION VALUE="Teruel">Teruel</OPTION>
+					<OPTION VALUE="Zaragoza" SELECTED>Zaragoza</OPTION>
+                    <OPTION VALUE="Pastriz">Pastriz</OPTION>
+                    <OPTION VALUE="Utebo">Utebo</OPTION>
+                    <OPTION VALUE="Burgo de Ebro">Burgo de Ebro</OPTION>
+                    <OPTION VALUE="Fuentes de Ebro">Fuentes de Ebro</OPTION>
+                    <OPTION VALUE="Ariza">Ariza</OPTION>
+                    <OPTION VALUE="Azuara">Azuara</OPTION>
+                    <OPTION VALUE="Belchite">Belchite</OPTION>
+                    <OPTION VALUE="Cadrete">Cadrete</OPTION>
+                </SELECT> <br>
+                <INPUT TYPE="radio" NAME="Mozilla" VALUE=Mozilla>Mozilla <br>
+                <INPUT TYPE="radio" NAME="Firefox" VALUE=Firefox>Firefox <br>
+                <INPUT TYPE="radio" NAME="Google chrome" VALUE=Google chrome>Google chrome <br>
+                <INPUT TYPE="radio" NAME="Internet explorer" VALUE=Internet explorer>Internet explorer <br>
+                
+                Comentarios y sugerencias:
+				<TEXTAREA NAME="Comentarios y sugerencias" ROWS="8" COLS="50"></TEXTAREA> <br>
+			</FIELDSET>
+			<INPUT TYPE="Submit" VALUE="Enviar">
+			<INPUT TYPE="Reset" VALUE="Borrar">
+			
+		</form>
+	
+	</body>
+</html>
